@@ -32,6 +32,15 @@ git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-
 ```
 
 
+```
+#!/bin/bash
+hugo new site  knative.guide
+cd knative.guide
+git init
+git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-theme-learn
+cp -rf ./themes/hugo-theme-learn/*   ./
+```
+
 
 
 
