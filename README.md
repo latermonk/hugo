@@ -40,19 +40,25 @@ cp  -rf themes/hugo-theme-learn/exampleSite/*  ./
 ```
 
 
-
+**change config.toml**
 
 ![original](_image/original.jpg)
 
 
-![afterChange](_image/afterChange.jpg)
+![revision](_image/revision.jpg)
 
 
 
+```
+hugo server -D
+```
 
 
+```
+hugo
+```
 
-
+***commit to github***
 
 ```
 #!/bin/bash
