@@ -32,6 +32,28 @@ git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-
 ```
 
 
+
+
+```
+cp  themes/hugo-theme-learn/exampleSite/*  ./
+
+```
+
+
+
+
+![original](_image/original.jpg)
+
+
+![afterChange](_image/afterChange.jpg)
+
+
+
+
+
+
+
+
 ```
 #!/bin/bash
 hugo new site  knative.guide
