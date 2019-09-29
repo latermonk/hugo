@@ -13,12 +13,12 @@ https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
 
 ```
-hugo new site  knative.guide
+hugo new site  guide
 ```
 
 
 ```
-cd knative.guide
+cd guide
 ```
 
 
@@ -35,7 +35,7 @@ git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-
 
 
 ```
-cp  themes/hugo-theme-learn/exampleSite/*  ./
+cp  -rf themes/hugo-theme-learn/exampleSite/*  ./
 
 ```
 
